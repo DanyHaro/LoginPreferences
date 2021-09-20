@@ -17,6 +17,8 @@ class MainActivity2 : AppCompatActivity() {
         val btnlogout:Button = findViewById(R.id.btnlogout)
 
         val username = pref.getName()
+        System.out.println(username)
+        System.out.println("CTMREEEE")
         textusuario.text=username
 
         btnlogout.setOnClickListener {
